@@ -1,12 +1,4 @@
 <?php
-//Create connection
-$conn = new mysqli("db759932711.hosting-data.io", "dbo759932711", "yXJQH)$8");
-
-//Check connection
-if (!$conn) {
-  die("Connection failed: " . mysqli_connect_error());
-}
-
   // Parameter als String, sogenannter Query String
   $queryString = strstr($_SERVER['REQUEST_URI'], '?');
   $queryString = ($queryString===false) ? '' : substr($queryString, 1);
@@ -139,4 +131,3 @@ if (!$conn) {
   </body>
   <script src="js/main.js"></script>
 </html>
-<?php $conn->close(); ?>
