@@ -1,0 +1,26 @@
+.page--footer {
+  border-top: 2px solid var(--color-red);
+  padding: 10px 0;
+  background-color: var(--color-red-bright);
+}
+
+.page--footer--list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page--footer--list-item {
+  color: var(--color-black);
+}
+
+.page--footer--list-item--link {
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+
+.page--footer--list-item--link:hover,
+.page--footer--list-item--link:focus {
+  border-bottom: 2px solid var(--color-white)
+}

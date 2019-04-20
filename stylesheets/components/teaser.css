@@ -1,0 +1,25 @@
+.teaser--area {
+  background-color: var(--color-red);
+  padding: 150px 50px;
+}
+
+.teaser--area--slogan {
+  display: flex;
+  color: var(--color-white);
+  font-size: 40px;
+}
+
+.teaser--area--flex-slogan {
+  padding-bottom: 8px;
+  border-bottom: 4px solid var(--color-white);
+}
+
+.teaser--area--call-to-action {
+  margin: 10px 0;
+  border: 1px solid var(--color-white);
+  padding: 10px 20px;
+  color: var(--color-white);
+  background-color: transparent;
+  font-family: 'oswald';
+  font-size: 16px;
+}

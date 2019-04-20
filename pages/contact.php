@@ -1,5 +1,5 @@
 <div class="container contact">
-  <h2>Kontaktieren sie Uns</h2>
+  <h2>Kontaktieren Sie uns!</h2>
   <p>Kardinal-von-Galen Gymnasium<br>Prometheus Racing<br>Zum Roten Berge 25<br>48165 Münster<br><br>
     E-Mail: <a href="mailto:info@prometheus-racing.de">info(at)prometheus-racing.de</a></p>
 

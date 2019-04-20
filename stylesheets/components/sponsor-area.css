@@ -1,0 +1,31 @@
+.sponsor--area--list {
+  list-style-type: none;
+}
+
+.sponsor--area {
+  margin: 40px;
+}
+
+.slick-slide {
+  padding: 0 40px;
+}
+
+.slick-prev {
+  left: -25px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: var(--color-red)
+}
+
+
+.slick-next {
+  right: -25px;
+}
+
+.slick-track
+{
+  display: flex !important;
+  align-items: center;
+}

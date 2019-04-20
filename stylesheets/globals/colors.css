@@ -1,0 +1,7 @@
+:root {
+  --color-red-bright: rgba(130, 5, 69, 75%);
+  --color-red: rgb(130, 5, 69);
+  --color-black: rgb(37, 36, 37);
+  --color-grey: rgb(111, 110, 111);
+  --color-white: rgb(255, 255, 255);
+}
