@@ -1,13 +1,12 @@
 <header class= "page--header">
-  <!-- <div class="page--header--image">
-    <img src="media/banner-web.svg" width="100%">
-  </div> -->
-
   <nav class="page--header--navigation">
     <ul class="navigation--list">
       <li class="navigation--list-item is-page-title">
-        <img src="" alt="">
+        <img class="navigation--list-item-logo" src="media/g3875.png">
         <a href="/" class="navigation--list-item--link <?php if ($path == "") { echo "active"; } ?>">PROMETHEUS</a>
+      </li>
+      <li class="navigation--list-item">
+        <a href="/" class="navigation--list-item--link <?php if ($path == "") { echo "active"; } ?>">News</a>
       </li>
       <li class="navigation--list-item">
         <a href="about" class="navigation--list-item--link <?php if ($path == about) { echo "active"; } ?>">Wettbewerb</a>
