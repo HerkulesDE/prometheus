@@ -1,4 +1,5 @@
 <h1>Wir sind das Team:</h1>
+
 <p>Wir sind ein sechs Köpfiges Team aus, engagierten und motivierten, Schüler vom Kardinal-
 von-Galen Gymnasium Münster. Da schon ein Großteil unseres Teams vor zwei Jahren an
 dem Junior Projekt teilgenommen hat profitieren wir von ihren Erfahrungen, Fähigkeiten

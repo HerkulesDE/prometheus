@@ -1,7 +1,7 @@
 <footer class="page--footer">
   <ul class='page--footer--list'>
     <li class='page--footer--list-item'>
-      <a href="?impressum" class='page--footer--list-item--link'>Impressum</a>
+      <a href="impressum" class='page--footer--list-item--link'>Impressum</a>
     </li>
     <li class='page--footer--list-item'>
       <a class="socialicon" href="https://twitter.com/PrometheusKvG" target="_blank"><img src="media/twitter.svg" width="50px"></a>

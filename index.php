@@ -9,7 +9,11 @@
 
   <body class='page'>
     <? include 'layouts/header.php' ?>
-    <? include 'shared/teaser.php' ?>
+    <?php
+      if ($path == '') {
+        include 'shared/teaser.php';
+      }
+    ?>
     <div class="page--content">
       <? include 'content.php' ?>
     </div>
