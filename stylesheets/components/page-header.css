@@ -1,4 +1,7 @@
 .page--header {
   /* background-image: url('media/cheetah_background_blackberry.png') */
   background-color: var(--color-red);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
