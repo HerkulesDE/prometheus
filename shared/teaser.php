@@ -7,7 +7,5 @@
       FAST.
     </div>
   </div>
-  <button class="teaser--area--call-to-action">
-      Kontaktieren Sie uns!
-    </button>
+  <a href="/contact" class="teaser--area--call-to-action">Kontaktieren Sie uns!</a>
 </div>

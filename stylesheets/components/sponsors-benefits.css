@@ -1,0 +1,12 @@
+.sponsors--benefits--list {
+  list-style-type: disc;
+  padding: 10px 20px 20px;
+}
+
+.sponsors--benefits--cta {
+  margin-bottom: 20px;
+}
+
+.sponsors--benefits--greetings {
+  margin-top: 20px;
+}

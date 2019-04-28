@@ -9,8 +9,8 @@ function ValidateEmail(mail) {
 $('#slider').slick({
   centerPadding: '60px',
   slidesToShow: 3,
-  autoplay: false,
-  autoplaySpeed: 2000,
+  autoplay: true,
+  autoplaySpeed: 3000,
   slidesToScroll: 1,
   arrows: true,
   responsive: [
@@ -20,7 +20,7 @@ $('#slider').slick({
         arrows: false,
         centerMode: true,
         centerPadding: '40px',
-        slidesToShow: 3,
+        slidesToShow: 2,
         infinite: true
       }
     },
@@ -47,4 +47,23 @@ $(function () {
       $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400);
     });
   }, 2000);
+});
+
+$(window).on('load', function(){
+  const headerEl = $('.page--header')
+        toggleHeaderEl = $('.page--header--navigation--toggle');
+
+  if (headerEl && toggleHeaderEl) {
+    toggleHeaderEl.click(function(e){
+      e.preventDefault();
+      headerEl.toggleClass('is-open');
+    })
+  }
+
+});
+
+$(document).on('ready', function() {
+  $('#toggle-navigation').on("click", function () {
+    $('#navigation-list').toggleClass('is-open')
+  });
 });

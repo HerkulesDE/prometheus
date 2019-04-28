@@ -6,6 +6,10 @@
   margin: 40px;
 }
 
+.sponsor--area--heading {
+  text-align: center;
+}
+
 .slick-slide {
   padding: 0 40px;
 }

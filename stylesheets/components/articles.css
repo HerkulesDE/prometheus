@@ -6,8 +6,13 @@
 }
 
 .article--list-item--image {
-  height: 150px;
+  height: 250px;
+}
+
+.article--list-item--visuals {
   flex: 0 0 33%;
+  display: flex;
+  justify-content: center;
 }
 
 .article--list-item {
