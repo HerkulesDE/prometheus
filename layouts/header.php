@@ -22,7 +22,7 @@
       </li>
     </ul>
     <a class="is-toggle-item" id="toggle-navigation">
-        <button class="page--header--navigation--toggle"></button>
+      <div class="page--header--navigation--toggle"></div>
     </a>
   </nav>
 </header>
