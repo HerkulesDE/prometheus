@@ -61,3 +61,9 @@ $(window).on('load', function(){
   }
 
 });
+
+$(document).on('ready', function() {
+  $('#toggle-navigation').on("click", function () {
+    $('#navigation-list').toggleClass('is-open')
+  });
+});

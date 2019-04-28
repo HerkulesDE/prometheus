@@ -1,0 +1,5 @@
+:root {
+  --responsify-large: 'screen and (min-width: 1025px)';
+  --responsify-medium: 'screen and (min-width: 569px) and (max-width: 1024px)';
+  --responsify-small:  'screen and (max-width: 568px)';
+}

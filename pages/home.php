@@ -1,7 +1,8 @@
-<h1>NEWS</h1>
 <ul class='article--list'>
   <li class='article--list-item'>
-    <img class="article--list-item--image" src="media/arbeit.jpg">
+    <div class="article--list-item--visuals">
+      <img class="article--list-item--image" src="media/arbeit.jpg">
+    </div>
     <div class='article--list-item--textbox'>
       <h2 class='article--list-item--heading'>Tests auf der Rennbahn</h2>
       <p class='article--list-item--article'>
@@ -25,7 +26,9 @@
   </li>
 
   <li class='article--list-item'>
-    <img class="article--list-item--image" src="media/fraesen.jpg">
+    <div class="article--list-item--visuals">
+      <img class="article--list-item--image" src="media/fraesen.jpg">
+    </div>
     <div class='article--list-item--textbox'>
       <h2 class='article--list-item--heading'>Die Autos sind gefräst</h2>
       <p class='article--list-item--article'>
@@ -49,7 +52,9 @@
   </li>
 
   <li class='article--list-item'>
-    <img class="article--list-item--image" src="media/sponsorenvertrag.jpg">
+    <div class="article--list-item--visuals">
+      <img class="article--list-item--image" src="media/sponsorenvertrag.jpg">
+    </div>
     <div class='article--list-item--textbox'>
       <h2 class='article--list-item--heading'>Unterzeichnung des Sponsorenvertrags mit unserem Hauptsponsor e-Spirit</h2>
       <p class='article--list-item--article'>
@@ -68,7 +73,9 @@
 
 
   <li class='article--list-item'>
-    <img class="article--list-item--image left" src="media/Prometheus-Logo.jpg">
+    <div class="article--list-item--visuals">
+      <img class="article--list-item--image" src="media/Prometheus-Logo.jpg">
+    </div>
     <div class='article--list-item--textbox'>
       <h2 class='article--list-item--heading'>Entscheidung unseres Teamnamens auf Prometheus</h2>
       <p class='article--list-item--article'>

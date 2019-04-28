@@ -1,5 +1,6 @@
 @import 'utilities/reset.css';
 
+@import 'globals/base.css';
 @import 'globals/colors.css';
 @import 'globals/fonts.css';
 
@@ -10,4 +11,5 @@
 @import 'components/paragraph.css';
 @import 'components/page-footer.css';
 @import 'components/sponsor-area.css';
+@import 'components/sponsors-benefits.css';
 @import 'components/teaser.css';

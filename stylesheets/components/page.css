@@ -3,8 +3,11 @@
   padding: 0;
   background-color: var(--color-white);
   font-family: 'oswald';
+  font-weight: 300;
+  line-height: 24px;   /* within paragraph */
 }
 
 .page--content {
-  padding: 20px;
+  padding: 86px 20px 20px 20px;
+  min-height: 40vh;
 }

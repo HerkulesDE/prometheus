@@ -44,62 +44,150 @@
   border-bottom: 2px solid var(--color-white)
 }
 
+.navigation--list-item--link.active {
+  border-bottom: 2px solid var(--color-white)
+}
 
 .page--header--navigation--toggle {
+  position: relative;
+  width: 16px;
+  height: 2px;
+  background-color: var(--color-white);
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.is-toggle-item {
   display: block;
   position: absolute;
-  top: 7px;
+  top: 30px;
   right: 0;
   height: 48px;
   padding-right: 20px;
   cursor: pointer;
-  /* +respond-to(large)
-    display: none */
+}
+
+.page--header--navigation--toggle::before,
+.page--header--navigation--toggle::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: var(--color-white);
+  transition: transform 0.2s 0s, top 0.2s, bottom 0.2s;
+}
+
+.page--header--navigation--toggle::before {
+  top: -7px;
+}
+
+.page--header--navigation--toggle::after {
+  bottom: -7px;
+  left: 20%;
+  width: 80%;
 }
 
 
-/* .header--navigation--toggle-item
-  position: relative
-  top: 24px
-  width: 24px
-  height: 3px
-  border-radius: 3px
-  background-color: $color-background-light
-  transition: all 0.2s
-  &::before,
-  &::after
-    content: ''
-    position: absolute
-    left: 0
-    width: 100%
-    height: 3px
-    margin: auto
-    border-radius: 3px
-    background-color: $color-background-light
-    transition: transform 0.2s 0s, top 0.2s, bottom 0.2s
-  &::before
-    top: -7px
-  &::after
-    bottom: -7px
-    left: 20%
-    width: 80%
+@media only screen and (min-width: 1025px) {
+  .page--header--navigation--toggle {
+    display: none;
+  }
+}
 
-.header--navigation.is-open
-  +respond-to(small, medium)
-    .header--navigation--list
-      display: block
-    .header--navigation--toggle-item
-      background-color: transparent
-      transition: transform 0.2s 0.4s
-      &::before,
-      &::after
-        top: 0
-        bottom: 0
-        width: 20px
-      &::before
-        right: -5px
-        transform: rotate(-45deg)
-        +respond-to(medium)
-          right: -6px
-      &::after
-        transform: rotate(45deg) */
+@media only screen and (max-width: 1025px) {
+
+  .navigation--list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navigation--list-item {
+    display: none;
+  }
+
+  .navigation--list.is-open > .navigation--list-item:not(.is-page-title) {
+    display: block;
+  }
+
+  .navigation--list.is-open + .is-toggle-item > .page--header--navigation--toggle::before,
+  .navigation--list.is-open + .is-toggle-item > .page--header--navigation--toggle::after {
+      top: 0;
+      bottom: 0;
+      width: 20px;
+  }
+  .navigation--list.is-open + .is-toggle-item > .page--header--navigation--toggle::before {
+    right: -5px;
+    transform: rotate(-45deg);
+  }
+
+  .navigation--list.is-open + .is-toggle-item > .page--header--navigation--toggle::after {
+    transform: rotate(45deg);
+  }
+
+  .page--header--navigation--toggle {
+    display: block;
+  }
+}
+
+/*
+.toggle-menu-button {
+  @include flex-center;
+  position: absolute;
+  z-index: z('toggle-menu-button');
+  top: 50%;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  transform: translateY(-50%);
+
+  &:focus .toggle-menu-button-icon,
+  &:hover .toggle-menu-button-icon {
+    background-color: $primary-color;
+  }
+
+  &.is-active .toggle-menu-button-icon {
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+
+    &::before {
+      transform: translateY(5px);
+      transition: transform 0.2s ease;
+    }
+
+    &::after {
+      transform: translateY(-5px) rotate(90deg);
+      transition: transform 0.2s ease;
+    }
+  }
+}
+
+.toggle-menu-button-icon {
+  display: block;
+  position: relative;
+  width: 16px;
+  height: 2px;
+  background-color: $dmh-black-1;
+  transition: transform 0.2s ease;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 16px;
+    height: 2px;
+    background-color: inherit;
+    transition: transform 0.2s ease;
+  }
+
+  &::before {
+    top: -5px;
+  }
+
+  &::after {
+    top: 5px;
+  }
+} */
