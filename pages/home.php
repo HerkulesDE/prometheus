@@ -1,6 +1,75 @@
 <ul class='article--list'>
   <li class='article--list-item'>
     <div class="article--list-item--visuals">
+      <img class="article--list-item--image" src="media/obm.jpg">
+    </div>
+    <div class='article--list-item--textbox'>
+      <h2 class='article--list-item--heading'>Treffen mit dem Oberbürgermeister</h2>
+      <p class='article--list-item--article'>
+        Gemeinsam mit dem Oberbürgermeister der Stadt Münster Herrn Markus Lewe
+        haben wir gezeigt, dass wir für Münster bei der Deutschen Meisterschaft
+        2019 in Wolfsburg antreten. Wir bedanken uns bei Herrn Lewe für die
+        Kooperation und freuen uns schon auf die Meisterschaft.
+      </p>
+    </div>
+  </li>
+
+  <li class='article--list-item'>
+    <div class="article--list-item--visuals">
+      <img class="article--list-item--image" src="media/sponsorenabend.jpg">
+    </div>
+    <div class='article--list-item--textbox'>
+      <h2 class='article--list-item--heading'>Sponsorenabend</h2>
+      <p class='article--list-item--article'>
+        Am Dienstag, den 02.04.19, hatten wir unseren Sponsorenabend, wo wir uns
+        mit all unseren Sponsoren und Unterstützern getroffen haben und die
+        letzten Ereignisse nochmal Revue passiert gelassen haben. Das Team
+        Prometheus bedankt sich bei allen Sponsoren und Unterstützern für die
+        Hilfe. Ohne euch wäre das alles nicht möglich gewesen.
+      </p>
+    </div>
+  </li>
+
+  <li class='article--list-item'>
+    <div class='article--list-item--textbox'>
+      <h2 class='article--list-item--heading'>Qualifiziert für die Deutschemeisterschaft</h2>
+      <p class='article--list-item--article'>
+        Da ein Team aus Thüringen leider nicht an der Deutschen Meisterschaft
+        2019 in Wolfsburg teilnehmen kann, haben wir glücklicherweise einen
+        Platz für die Deutsche Meisterschaft bekommen, obwohl wir bei der
+        Landesmeisterschaft NRW nur Vierter geworden sind. Wir bedanken uns
+        nochmals recht herzlich bei unseren Sponsoren und Unterstützern und
+        werden uns jetzt nochmal richtig ins Zeug legen, um die Ergebnisse von
+        der Landesmeisterschaft NRW zu toppen.
+      </p>
+    </div>
+  </li>
+
+  <li class='article--list-item'>
+    <div class="article--list-item--visuals">
+      <img class="article--list-item--image" src="media/hagen.jpg">
+    </div>
+    <div class='article--list-item--textbox'>
+      <h2 class='article--list-item--heading'>Landesmeisterschaft in Hagen</h2>
+      <p class='article--list-item--article'>
+        Am Freitag, den 08. März sind wir voller Elan nach Hagen zur nordrhein-westfälischen
+        Landesmeisterschaft gefahren und haben unseren Stand aufgebaut und uns nochmals
+        genau auf den Wettkampf eingestellt. Dann, eine Nacht geschlafen, ging es auch
+        schon los.
+      </p>
+      <p class="article--list-item--article" >
+        Am Samstag haben wir dann unser ganzes Können gezeigt und unsere
+        harte Arbeit aus den letzten Monaten präsentiert. Trotz dem schnellsten Auto
+        bei der NRW-Meisterschaft und dem zweit besten Boxenstand wurden wir leider
+        nur vierter und haben uns damit leider nicht für die Deutsche Meisterschaft
+        2019 in Wolfsburg qualifizieren können. Wir hatten trotz alledem sehr viel
+        Spaß und Freude an der Entwicklung unseres Projektes.
+      </p>
+    </div>
+  </li>
+
+  <li class='article--list-item'>
+    <div class="article--list-item--visuals">
       <img class="article--list-item--image" src="media/arbeit.jpg">
     </div>
     <div class='article--list-item--textbox'>
