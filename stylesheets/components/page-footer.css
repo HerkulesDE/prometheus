@@ -22,16 +22,26 @@
   display: flex;
 }
 
+
+
 @media only screen and (min-width: 1025px) {
   .page--footer--list {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
+
+  .footer-icons {
+    display: inherit;
+  }
+
+  .socialicon {
+    padding: 0 60px;
+  }
+
 }
 
 @media only screen and (max-width: 1025px) {
-
   .page--footer--list {
     flex-direction: column;
     align-items: center;

@@ -33,3 +33,7 @@
   display: flex !important;
   align-items: center;
 }
+
+.content-img-sponsor {
+  max-height: 250px;
+}

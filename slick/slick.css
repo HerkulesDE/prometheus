@@ -18,6 +18,14 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+.slick-slider.slick-dotted {
+    margin-bottom: 120px;
+}
+
+.slick-dots {
+    bottom: -80px;
+}
+
 .slick-list
 {
     position: relative;
